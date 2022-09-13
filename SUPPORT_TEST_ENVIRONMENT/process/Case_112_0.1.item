@@ -43,7 +43,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:/CAYo0moPp1fW0rMlg1j0aIUNMqmUUqd6Er8mYbc"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:xXTlQTgPJ+V+HuoBrQ7vRVc0974imxRfWZpX7uJT"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -78,7 +78,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:KroCF/KSc4YHp01M7F50UdAGWhnm7NXpNbN51B3+"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:cfqYnFmI6ONDp+0PejJ8/CmjmQwX1s/00q7ETRiX"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -195,12 +195,11 @@
   </node>
   <node componentName="tFileFetch" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="288" posY="352">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileFetch_1"/>
-    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="CLOSED_LIST" name="PROTO" value="smb"/>
     <elementParameter field="CHECK" name="POST" show="false" value="true"/>
     <elementParameter field="TEXT" name="URI" show="false" value="&quot;smhttp://talendforge.org/file_fetch.txt&quot;"/>
     <elementParameter field="CHECK" name="USE_CACHE" value="true"/>
-    <elementParameter field="TEXT" name="SMB_URI" value="&quot;smb://10.150.71.103/C:/Users/Administrador/Documents/Support test environment/test.txt&quot;"/>
+    <elementParameter field="TEXT" name="SMB_URI" value="&quot;smb://10.150.71.10dsad3/C:/Users/Administrador/Documents/Support test environment/test.txt&quot;"/>
     <elementParameter field="DIRECTORY" name="DIRECTORY" show="false" value="&quot;/opt/test:&quot;"/>
     <elementParameter field="CHECK" name="MAKEDIRS" show="false" value="false"/>
     <elementParameter field="TEXT" name="FILENAME" show="false" value="&quot;teste_1&quot;"/>
@@ -208,7 +207,7 @@
     <elementParameter field="TABLE" name="HEADERS" show="false"/>
     <elementParameter field="TEXT" name="SMB_DOMAIN" value="&quot;domain&quot;"/>
     <elementParameter field="TEXT" name="SMB_USERNAME" value="&quot;administrador&quot;"/>
-    <elementParameter field="PASSWORD" name="SMB_PASSWORD" value="enc:system.encryption.key.v1:EDr3qRboYGcFx2v+zLniRKvgmJiME4oxx5UgMyHkfzdY8YYA"/>
+    <elementParameter field="PASSWORD" name="SMB_PASSWORD" value="enc:system.encryption.key.v1:WF3JL+s8nAwkxXNGd9vCyKG88iR6tBicHwcS2XDNUfyXqPr3"/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" show="false" value="true"/>
     <elementParameter field="TABLE" name="COMMON_PARAMS" show="false"/>
     <elementParameter field="CHECK" name="READ_COOKIE" show="false" value="false"/>
@@ -226,12 +225,12 @@
     <elementParameter field="TEXT" name="PROXY_HOST" show="false" value="&quot;127.0.0.1&quot;"/>
     <elementParameter field="TEXT" name="PROXY_PORT" show="false" value="&quot;8080&quot;"/>
     <elementParameter field="TEXT" name="PROXY_USERNAME" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PROXY_PASSWORD" show="false" value="enc:system.encryption.key.v1:64InSuG+qgOPrDHYew+lqeC1SeFZ68Zdo1e18FRi"/>
+    <elementParameter field="PASSWORD" name="PROXY_PASSWORD" show="false" value="enc:system.encryption.key.v1:YEiQE9AXMoq9BuRCBYpbS0UecI7t14PtKrow85QS"/>
     <elementParameter field="CHECK" name="PROXY_NTLM" show="false" value="false"/>
     <elementParameter field="TEXT" name="PROXY_DOMAIN" show="false" value="&quot;&quot;"/>
     <elementParameter field="CHECK" name="NEED_AUTH" show="false" value="false"/>
     <elementParameter field="TEXT" name="AUTH_USERNAME" show="false" value="&quot;username&quot;"/>
-    <elementParameter field="PASSWORD" name="AUTH_PASSWORD" show="false" value="enc:system.encryption.key.v1:jeewXr1PhNPQgr4oksFY4ODubuzIxDNj/C9M89MYRzwgMBbZa5M="/>
+    <elementParameter field="PASSWORD" name="AUTH_PASSWORD" show="false" value="enc:system.encryption.key.v1:bWCp6zumqTaq80rlioftVF0RhjsATb3OUwtUvfYt07x9CYlbR68="/>
     <elementParameter field="CHECK" name="REDIRECT" show="false" value="false"/>
     <elementParameter field="CHECK" name="REDIRECT_302_AS_303" show="false" value="false"/>
     <elementParameter field="CHECK" name="TRUST_ALL_SERVER" show="false" value="false"/>
@@ -240,6 +239,7 @@
   </node>
   <node componentName="tFileFetch" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="288" posY="480">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileFetch_2"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="CLOSED_LIST" name="PROTO" value="ftp"/>
     <elementParameter field="CHECK" name="POST" show="false" value="true"/>
     <elementParameter field="TEXT" name="URI" value="&quot;smb://10.150.71.103/C:/Users/Administrador/Documents/Support test environment/test.txt&quot;"/>
@@ -252,7 +252,7 @@
     <elementParameter field="TABLE" name="HEADERS" show="false"/>
     <elementParameter field="TEXT" name="SMB_DOMAIN" show="false" value="&quot;domain&quot;"/>
     <elementParameter field="TEXT" name="SMB_USERNAME" show="false" value="&quot;username&quot;"/>
-    <elementParameter field="PASSWORD" name="SMB_PASSWORD" show="false" value="enc:system.encryption.key.v1:1dLZuj/kdbcl5/wKxKmrDcybM5g9dtk9ikUUBgls8/PMLJLFthw="/>
+    <elementParameter field="PASSWORD" name="SMB_PASSWORD" show="false" value="enc:system.encryption.key.v1:ffpwuqZcQ0Wn5nt0eCLdQ20S7z1bPfLzUeDONuDoXGTmAiemtto="/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
     <elementParameter field="TABLE" name="COMMON_PARAMS" show="false"/>
     <elementParameter field="CHECK" name="READ_COOKIE" show="false" value="false"/>
@@ -270,12 +270,12 @@
     <elementParameter field="TEXT" name="PROXY_HOST" show="false" value="&quot;127.0.0.1&quot;"/>
     <elementParameter field="TEXT" name="PROXY_PORT" show="false" value="&quot;8080&quot;"/>
     <elementParameter field="TEXT" name="PROXY_USERNAME" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PROXY_PASSWORD" show="false" value="enc:system.encryption.key.v1:zF/9I2gzOdDOC1uGCgoNrdLJ//tnnst/qabM1Ep/"/>
+    <elementParameter field="PASSWORD" name="PROXY_PASSWORD" show="false" value="enc:system.encryption.key.v1:jrxwMn1CY9nXU1F6m4pAWLhLVSwH21kdl/x04YF9"/>
     <elementParameter field="CHECK" name="PROXY_NTLM" show="false" value="false"/>
     <elementParameter field="TEXT" name="PROXY_DOMAIN" show="false" value="&quot;&quot;"/>
     <elementParameter field="CHECK" name="NEED_AUTH" show="false" value="false"/>
     <elementParameter field="TEXT" name="AUTH_USERNAME" show="false" value="&quot;username&quot;"/>
-    <elementParameter field="PASSWORD" name="AUTH_PASSWORD" show="false" value="enc:system.encryption.key.v1:bWTzoBc2gtL2MN4coXZE2iv3qJYhB1O8IuuB+PEVZDjWZMs4MqA="/>
+    <elementParameter field="PASSWORD" name="AUTH_PASSWORD" show="false" value="enc:system.encryption.key.v1:rvhDZnDUsriwtNyudvsRCFbkBduAm9QuhkcjS8U+4r3sgFamdgQ="/>
     <elementParameter field="CHECK" name="REDIRECT" show="false" value="false"/>
     <elementParameter field="CHECK" name="REDIRECT_302_AS_303" show="false" value="false"/>
     <elementParameter field="CHECK" name="TRUST_ALL_SERVER" show="false" value="false"/>
@@ -307,13 +307,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_2ed81670-0343-4104-95f7-60574f8571bc"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>bBI9adotAkLkhAIRCY0hQmtsyCl+WPVz+caGg7oYy4vX1iup73cijrDl0amkT5ir7laOQT03WWXP&#13;
-4vWG4WaEcQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_33161bc4-a992-4611-8128-11794ed38858"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>c98AJTiL91r9L+FhDOdDoAQeD7h8m2OxbMsCZTRNbJFHyTASdg/eWFaOtJyNwR9dKv59joyS12+b&#13;
-YqeHb1Qepg==</DigestValue></Reference></SignedInfo><SignatureValue>Ii2LtUcMYolPV4zttWXzM6hki1MnDfE+yfBnFs7X7wTVNU5DCJ/hcyb6eG5K8tqBFIYA/hg0xfrh&#13;
-XHaQCISSW0FZW93D7qeWc9PRNr3FCBPXrT8HB1vnS9koPMNCI04dkBtOcNN5E89YAXkM5Hk9TR7T&#13;
-hrhSv/ZdToO5eHepkDBKI1khjjPTCoGzqdMilTXgD7P7KN7ZLmCMeJbKdnaV832Q9qjyIPvH23Ff&#13;
-2TrkKOXjoHDhIHl0+QsWjljfMxqti817yfWmXEYqtVtzRczSL3OzGF8w/OdCBo2LoHctpqLwNOYF&#13;
-4loUktTtT88wPDmRssISNt65pzpX9/i8eeBBBw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_01efedab-4b6d-4b97-9dd7-5d931651ea3b"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>K0S7TaESqqyYz+Y+i20T+FNJ6c5wJanaYV/3pDuz/+m80MNOhUuJDOmC3BMoKVUMw5b+3jEIIy74&#13;
+vY87vsmFIA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_2699d230-a7ae-462c-8fe1-e1d65399d7a8"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>/t7CdQIzTdgdo45UuXR/1YrKk+aOZgZAbKLMnSXarsCcpa6v0dnUzJE/ipEGlLwst73ihkzwBhhy&#13;
+I5GgyMeCyw==</DigestValue></Reference></SignedInfo><SignatureValue>HvYJUEbWQmGhuuKyn8rmeqrDe++u/g2Td6BFTyMxj0KypEv4CexV158rzMN0TFOOVbJwVcqttC00&#13;
+hCpwRfwTMkejV+hS5tQmDytkszcLPk4a8D/5unIz/3GJJj07W45243/gMLt7ou3x0zmdYp7x6rah&#13;
+BlicOmeXzlTfLAj7y+efn7d4lYsHJlTbs8ADgqCF2zHvYAWX1/+QXX5PV6XLdTGLQdUVWka3XpPu&#13;
+pSt8ievcZLfiJ+T2ffG0nOaNNMwoG9itxRps/y9WGxTnk9xVbN9V9A9isMgjid209+7HK8O+aCv1&#13;
+KTJ1UzbonefHsYaLZz4EZBu6IogmiMpPq23yBg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -335,4 +335,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_33161bc4-a992-4611-8128-11794ed38858" Target="#_2ed81670-0343-4104-95f7-60574f8571bc"><Timestamp>2022-09-13 13:38:29</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_2699d230-a7ae-462c-8fe1-e1d65399d7a8" Target="#_01efedab-4b6d-4b97-9dd7-5d931651ea3b"><Timestamp>2022-09-13 13:41:24</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
