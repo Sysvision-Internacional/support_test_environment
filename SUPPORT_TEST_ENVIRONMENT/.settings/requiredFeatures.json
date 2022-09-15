@@ -16,6 +16,8 @@
   }, {
     "id" : "org.talend.lite.bd.components.couchbase.feature.feature.group"
   }, {
+    "id" : "org.talend.lite.bd.components.saphana.feature.feature.group"
+  }, {
     "id" : "org.talend.lite.bd.dbr.550.feature.feature.group"
   }, {
     "id" : "org.talend.lite.bd.dbr.640.feature.feature.group"
@@ -31,6 +33,8 @@
     "id" : "org.talend.lite.bd.hadoopcluster.feature.group"
   }, {
     "id" : "org.talend.lite.bd.hbase.feature.feature.group"
+  }, {
+    "id" : "org.talend.lite.bd.hcatalog.feature.feature.group"
   }, {
     "id" : "org.talend.lite.bd.hdinsight.400.feature.feature.group"
   }, {
@@ -106,6 +110,8 @@
   }, {
     "id" : "org.talend.lite.tdm.core.feature.feature.group"
   }, {
+    "id" : "org.talend.studio.components.bd.documentDB.feature.feature.group"
+  }, {
     "id" : "org.talend.studio.components.di.cyberark.feature.feature.group"
   }, {
     "id" : "org.talend.studio.components.tck.google.analytics.feature.feature.group"
@@ -129,6 +135,8 @@
     "id" : "org.talend.studio.components.tcompv0.jira.feature.feature.group"
   }, {
     "id" : "org.talend.studio.components.tcompv0.marketo.feature.feature.group"
+  }, {
+    "id" : "org.talend.studio.components.tcompv0.marklogic.feature.feature.group"
   }, {
     "id" : "org.talend.studio.components.tcompv0.salesforce.feature.feature.group"
   }, {
