@@ -9,4 +9,15 @@
     "version" : "Latest",
     "type" : "property"
   } ]
+}, {
+  "baseItem" : {
+    "id" : "_DHfJcEvuEe2GhOSifj42AA",
+    "version" : "2.0",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_q8eH0E4aEe2hi8PP1wtqiw",
+    "version" : "Latest",
+    "type" : "property"
+  } ]
 } ]
