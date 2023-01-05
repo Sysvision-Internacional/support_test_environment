@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmi:version="2.0">
+  <TalendMetadata:DatabaseConnection DatabaseType="JDBC" DbmsId="databricks_delta_lake_id" DriverClass="com.simba.spark.jdbc.Driver" DriverJarPath="mvn:Spark/SparkJDBC42/2.6.14.1018/jar" NullChar="" Password="enc:system.encryption.key.v1:hGuiYxOi8v+Oh1wggGkg/wLz6HO/iICh8NTSojbaIRhzE9VW10+DN7QcUkMWi1sBtk6+ujldO0V/dEo3LEIoIg==" Port="" ProductId="Delta Lake" SID="" SQLMode="false" ServerName="" SqlSynthax="" StandardSQL="true" StringQuote="" URL="jdbc:spark://dbc-6bbd0475-9582.cloud.databricks.com:443/default;transportMode=http;ssl=1;httpPath=sql/protocolv1/o/2380744954623640/1119-182702-abllib4s;AuthMech=3" Username="token" compProperties="{&quot;@type&quot;:&quot;org.talend.components.jdbc.wizard.JDBCConnectionWizardProperties&quot;,&quot;name&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.StringProperty&quot;,&quot;possibleValues2&quot;:null,&quot;flags&quot;:null,&quot;storedValue&quot;:null,&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;,&quot;SUPPORT_CONTEXT&quot;:false,&quot;IS_DYNAMIC&quot;:false,&quot;REPOSITORY_VALUE&quot;:&quot;name&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:1,&quot;occurMaxTimes&quot;:1,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.String&quot;,&quot;name&quot;:&quot;name&quot;,&quot;tags&quot;:null},&quot;repositoryLocation&quot;:&quot;_xlcfdI0ZEe2XKaH4Yz1OIQ&quot;,&quot;connection&quot;:{&quot;jdbcUrl&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.StringProperty&quot;,&quot;possibleValues2&quot;:null,&quot;flags&quot;:null,&quot;storedValue&quot;:&quot;jdbc:spark://dbc-6bbd0475-9582.cloud.databricks.com:443/default;transportMode=http;ssl=1;httpPath=sql/protocolv1/o/2380744954623640/1119-182702-abllib4s;AuthMech=3&quot;,&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;,&quot;SUPPORT_CONTEXT&quot;:true,&quot;IS_DYNAMIC&quot;:false,&quot;REPOSITORY_VALUE&quot;:&quot;jdbcUrl&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:1,&quot;occurMaxTimes&quot;:1,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.String&quot;,&quot;name&quot;:&quot;jdbcUrl&quot;,&quot;tags&quot;:null},&quot;driverTable&quot;:{&quot;drivers&quot;:{&quot;flags&quot;:null,&quot;storedValue&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;,&quot;@items&quot;:[&quot;\&quot;mvn:Spark/SparkJDBC42/2.6.14.1018/jar\&quot;&quot;]},&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;,&quot;SUPPORT_CONTEXT&quot;:true,&quot;IS_DYNAMIC&quot;:false,&quot;REPOSITORY_VALUE&quot;:&quot;drivers&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:0,&quot;occurMaxTimes&quot;:0,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.util.List&lt;java.lang.String&gt;&quot;,&quot;name&quot;:&quot;drivers&quot;,&quot;tags&quot;:null},&quot;name&quot;:&quot;driverTable&quot;,&quot;validationResult&quot;:null,&quot;tags&quot;:null},&quot;driverClass&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.StringProperty&quot;,&quot;possibleValues2&quot;:null,&quot;flags&quot;:null,&quot;storedValue&quot;:&quot;com.simba.spark.jdbc.Driver&quot;,&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;,&quot;SUPPORT_CONTEXT&quot;:true,&quot;IS_DYNAMIC&quot;:false,&quot;REPOSITORY_VALUE&quot;:&quot;driverClass&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:1,&quot;occurMaxTimes&quot;:1,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.String&quot;,&quot;name&quot;:&quot;driverClass&quot;,&quot;tags&quot;:null},&quot;userPassword&quot;:{&quot;useAuth&quot;:{&quot;flags&quot;:null,&quot;storedValue&quot;:{&quot;@type&quot;:&quot;boolean&quot;,&quot;value&quot;:false},&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;,&quot;REPOSITORY_VALUE&quot;:&quot;useAuth&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:0,&quot;occurMaxTimes&quot;:0,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.Boolean&quot;,&quot;name&quot;:&quot;useAuth&quot;,&quot;tags&quot;:null},&quot;userId&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.StringProperty&quot;,&quot;possibleValues2&quot;:null,&quot;flags&quot;:null,&quot;storedValue&quot;:&quot;token&quot;,&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;,&quot;SUPPORT_CONTEXT&quot;:true,&quot;IS_DYNAMIC&quot;:false,&quot;REPOSITORY_VALUE&quot;:&quot;userId&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:1,&quot;occurMaxTimes&quot;:1,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.String&quot;,&quot;name&quot;:&quot;userId&quot;,&quot;tags&quot;:null},&quot;password&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.StringProperty&quot;,&quot;possibleValues2&quot;:null,&quot;flags&quot;:{&quot;@type&quot;:&quot;java.util.RegularEnumSet&quot;,&quot;@items&quot;:[{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.Property$Flags&quot;,&quot;name&quot;:&quot;ENCRYPT&quot;},{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.Property$Flags&quot;,&quot;name&quot;:&quot;SUPPRESS_LOGGING&quot;}]},&quot;storedValue&quot;:&quot;enc:system.encryption.key.v1:H9OlTnh8GbxyU7cV5E8EtOPwDC2TY61JogqbM5fQ1dAcWMJl9D/++x1oxWmX36TWkTyhRr7OAzVH2LmlQEhC1w==&quot;,&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;,&quot;SUPPORT_CONTEXT&quot;:true,&quot;IS_DYNAMIC&quot;:false,&quot;REPOSITORY_VALUE&quot;:&quot;password&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:1,&quot;occurMaxTimes&quot;:1,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.String&quot;,&quot;name&quot;:&quot;password&quot;,&quot;tags&quot;:null},&quot;needSwitch&quot;:false,&quot;name&quot;:&quot;userPassword&quot;,&quot;validationResult&quot;:null,&quot;tags&quot;:null},&quot;useInWizard&quot;:true,&quot;name&quot;:&quot;connection&quot;,&quot;validationResult&quot;:null,&quot;tags&quot;:null},&quot;mappingFile&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.StringProperty&quot;,&quot;possibleValues2&quot;:null,&quot;flags&quot;:null,&quot;storedValue&quot;:&quot;databricks_delta_lake_id&quot;,&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;,&quot;SUPPORT_CONTEXT&quot;:false,&quot;IS_DYNAMIC&quot;:false,&quot;REPOSITORY_VALUE&quot;:&quot;mappingFile&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:0,&quot;occurMaxTimes&quot;:0,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.String&quot;,&quot;name&quot;:&quot;mappingFile&quot;,&quot;tags&quot;:null},&quot;org.talend.daikon.properties.PropertiesImpl.name&quot;:&quot;connection&quot;,&quot;validationResult&quot;:{&quot;status&quot;:{&quot;name&quot;:&quot;OK&quot;},&quot;message&quot;:&quot;Connection successful&quot;,&quot;number&quot;:0},&quot;tags&quot;:null}" dataPackage="_YXtMkI0aEe2XKaH4Yz1OIQ" id="_xlcfdI0ZEe2XKaH4Yz1OIQ" label="ANIMA" name="ANIMA" supportNLS="false" xmi:id="_XlnBQI0aEe2XKaH4Yz1OIQ">
+    <taggedValue tag="Is Conn Need Reload" value="false" xmi:id="_XlnBQY0aEe2XKaH4Yz1OIQ"/>
+    <taggedValue tag="Status" value="" xmi:id="_XnsE4I0aEe2XKaH4Yz1OIQ"/>
+    <taggedValue tag="Version" value="0.1" xmi:id="_XnsE4Y0aEe2XKaH4Yz1OIQ"/>
+    <taggedValue tag="Purpose" value="" xmi:id="_XnsE4o0aEe2XKaH4Yz1OIQ"/>
+    <taggedValue tag="Description" value="" xmi:id="_XnsE440aEe2XKaH4Yz1OIQ"/>
+    <taggedValue tag="Author" value="" xmi:id="_XnsE5I0aEe2XKaH4Yz1OIQ"/>
+    <taggedValue tag="otherParameter" xmi:id="_XnsE5Y0aEe2XKaH4Yz1OIQ"/>
+    <taggedValue tag="DB ProductName" value="SparkSQL" xmi:id="_YAHL8I0aEe2XKaH4Yz1OIQ"/>
+    <taggedValue tag="DB ProductVersion" value="3.3.0" xmi:id="_YAHL8Y0aEe2XKaH4Yz1OIQ"/>
+    <taggedValue tag="DB IdentifierQuoteString" value="`" xmi:id="_YAHL8o0aEe2XKaH4Yz1OIQ"/>
+    <parameters key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value="" xmi:id="_XlnBQo0aEe2XKaH4Yz1OIQ"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog dataManager="_XlnBQI0aEe2XKaH4Yz1OIQ" name="Spark" xmi:id="_YXtMkI0aEe2XKaH4Yz1OIQ">
+    <ownedElement name="api_callbox" xmi:id="_YXtMkY0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="api_classroom" xmi:id="_YXtMko0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="api_google_analytics" xmi:id="_YXtMk40aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="api_hugme" xmi:id="_YXtMlI0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="api_jira" xmi:id="_YXtMlY0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="api_lattes" xmi:id="_YXtMlo0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="api_marketcloud" xmi:id="_YXtMl40aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="api_marketcloud_ages" xmi:id="_YXtMmI0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="api_marketcloud_aquisicao" xmi:id="_YXtMmY0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="api_marketcloud_ead" xmi:id="_YXtMmo0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="api_marketcloud_ebradi" xmi:id="_YXtMm40aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="api_marketcloud_fadergs" xmi:id="_YXtMnI0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="api_marketcloud_fg" xmi:id="_YXtMnY0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="api_marketcloud_fpb" xmi:id="_YXtMno0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="api_marketcloud_hsm" xmi:id="_YXtMn40aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="api_marketcloud_hsmu" xmi:id="_YXtMoI0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="api_marketcloud_ibmr" xmi:id="_YXtMoY0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="api_marketcloud_inspirali" xmi:id="_YXtMoo0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="api_marketcloud_miltoncampos" xmi:id="_YXtMo40aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="api_marketcloud_pos" xmi:id="_YXtMpI0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="api_marketcloud_uam" xmi:id="_YXtMpY0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="api_marketcloud_una" xmi:id="_YXtMpo0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="api_marketcloud_unibh" xmi:id="_YXtMp40aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="api_marketcloud_unicuritiba" xmi:id="_YXtMqI0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="api_marketcloud_unifacs" xmi:id="_YXtMqY0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="api_marketcloud_unifg" xmi:id="_YXtMqo0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="api_marketcloud_unimonte" xmi:id="_YXtMq40aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="api_marketcloud_uniritter" xmi:id="_YXtMrI0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="api_marketcloud_unisociesc" xmi:id="_YXtMrY0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="api_marketcloud_unisul" xmi:id="_YXtMro0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="api_marketcloud_unp" xmi:id="_YXtMr40aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="api_marketcloud_usjt" xmi:id="_YXtMsI0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="api_mindsight" xmi:id="_YXtMsY0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="api_netlex" xmi:id="_YXtMso0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="api_optout" xmi:id="_YXtMs40aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="api_salesforce" xmi:id="_YXtMtI0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="api_salesforce_vpec" xmi:id="_YXtMtY0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="api_surveymonkey" xmi:id="_YXtMto0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="api_zabbix" xmi:id="_YXtMt40aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="api_zenvia" xmi:id="_YXtMuI0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="api_zoom" xmi:id="_YXtMuY0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="db_adm" xmi:id="_YXtMuo0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="db_atender" xmi:id="_YXtMu40aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="db_azure_poc" xmi:id="_YXtMvI0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="db_barramento_erp_servico_boleto" xmi:id="_YXtMvY0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="db_barramento_erp_servico_cliente_erp" xmi:id="_YXtMvo0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="db_barramento_erp_servico_cliente_financeiro" xmi:id="_YXtMv40aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="db_barramento_erp_servico_cobranca_bancaria" xmi:id="_YXtMwI0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="db_barramento_erp_servico_conciliacao_bancaria" xmi:id="_YXtMwY0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="db_barramento_erp_servico_contrato" xmi:id="_YXtMwo0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="db_barramento_erp_servico_contrato_erp" xmi:id="_YXtMw40aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="db_barramento_erp_servico_financiamento" xmi:id="_YXtMxI0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="db_barramento_erp_servico_informacoes_academicas" xmi:id="_YXtMxY0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="db_barramento_erp_servico_integracao_erp" xmi:id="_YXtMxo0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="db_barramento_erp_servico_lancamento" xmi:id="_YXtMx40aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="db_barramento_erp_servico_pagamento" xmi:id="_YXtMyI0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="db_barramento_erp_servico_parcela" xmi:id="_YXtMyY0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="db_barramento_erp_servico_parcela_erp" xmi:id="_YXtMyo0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="db_barramento_erp_servico_pedido_restituicao_erp" xmi:id="_YXtMy40aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="db_barramento_erp_servico_periodo_financeiro" xmi:id="_YXtMzI0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="db_barramento_erp_servico_precificacao" xmi:id="_YXtMzY0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="db_barramento_erp_servico_recalculo" xmi:id="_YXtMzo0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="db_barramento_erp_servico_workflow" xmi:id="_YXtMz40aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="db_bblearn" xmi:id="_YXtM0I0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="db_bolsa" xmi:id="_YXtM0Y0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="db_censoescolar" xmi:id="_YXtM0o0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="db_cloudflare" xmi:id="_YXtM040aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="db_controlar" xmi:id="_YXtM1I0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="db_convenio" xmi:id="_YXtM1Y0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="db_dw" xmi:id="_YXtM1o0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="db_ead" xmi:id="_YXtM140aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="db_ebradi" xmi:id="_YXtM2I0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="db_erp_laureate" xmi:id="_YXtM2Y0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="db_falaies" xmi:id="_YXtM2o0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="db_filah3" xmi:id="_YXtM240aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="db_financiamento" xmi:id="_YXtM3I0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="db_folha" xmi:id="_YXtM3Y0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="db_funcionario" xmi:id="_YXtM3o0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="db_g2d" xmi:id="_YXtM340aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="db_governance" xmi:id="_YXtM4I0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="db_graduar" xmi:id="_YXtM4Y0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="db_hive_metadata" xmi:id="_YXtM4o0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="db_hsmu" xmi:id="_YXtM440aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="db_ilang" xmi:id="_YXtM5I0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="db_inspirali" xmi:id="_YXtM5Y0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="db_integracao" xmi:id="_YXtM5o0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="db_integracao_c2d_verticais" xmi:id="_YXtM540aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="db_kace" xmi:id="_YXtM6I0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="db_nanodegrees_ages_db" xmi:id="_YXtM6Y0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="db_nanodegrees_una_db" xmi:id="_YXtM6o0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="db_nanodegrees_unibh_db" xmi:id="_YXtM640aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="db_nanodegrees_unicuritiba_db" xmi:id="_YXtM7I0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="db_nanodegrees_unisociesc_db" xmi:id="_YXtM7Y0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="db_nanodegrees_usjt_db" xmi:id="_YXtM7o0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="db_network" xmi:id="_YXtM740aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="db_oracle_erp" xmi:id="_YXtM8I0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="db_overwatch" xmi:id="_YXtM8Y0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="db_renovar" xmi:id="_YXtM8o0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="db_sgd" xmi:id="_YXtM840aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="db_siaf" xmi:id="_YXtM9I0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="db_siga_ags" xmi:id="_YXtM9Y0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="db_siga_bsp" xmi:id="_YXtM9o0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="db_siga_fadergs" xmi:id="_YXtM940aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="db_siga_fpb" xmi:id="_YXtM-I0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="db_siga_ibmr" xmi:id="_YXtM-Y0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="db_siga_saojudas" xmi:id="_YXtM-o0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="db_siga_uam" xmi:id="_YXtM-40aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="db_siga_una" xmi:id="_YXtM_I0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="db_siga_unifacs" xmi:id="_YXtM_Y0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="db_siga_unifg" xmi:id="_YXtM_o0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="db_siga_uniritter" xmi:id="_YXtM_40aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="db_siga_unisul" xmi:id="_YXtNAI0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="db_siga_unp" xmi:id="_YXtNAY0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="db_siga_usc" xmi:id="_YXtNAo0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="db_sigadl" xmi:id="_YXtNA40aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="db_sispex" xmi:id="_YXtNBI0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="db_smartshare" xmi:id="_YXtNBY0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="db_staging" xmi:id="_YXtNBo0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="db_vestib" xmi:id="_YXtNB40aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="db_vpec" xmi:id="_YXtNCI0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="default" xmi:id="_YXtNCY0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="dm_dataviz" xmi:id="_YXtNCo0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="dw" xmi:id="_YXtNC40aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="dw_staging" xmi:id="_YXtNDI0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="dw_ulife" xmi:id="_YXtNDY0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="ff_censo" xmi:id="_YXtNDo0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="ff_inep" xmi:id="_YXtND40aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="ff_paradigma" xmi:id="_YXtNEI0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="global_integracao_escola_temp" xmi:id="_YXtNEY0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="global_temp" xmi:id="_YXtNEo0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="sb_algoritmos" xmi:id="_YXtNE40aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="sb_analytics" xmi:id="_YXtNFI0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="sb_analytics_dl" xmi:id="_YXtNFY0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="sb_apdata" xmi:id="_YXtNFo0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="sb_api" xmi:id="_YXtNF40aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="sb_aprdigital" xmi:id="_YXtNGI0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="sb_atender" xmi:id="_YXtNGY0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="sb_auditoria" xmi:id="_YXtNGo0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="sb_avaliar" xmi:id="_YXtNG40aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="sb_callcenter_captacao" xmi:id="_YXtNHI0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="sb_censo" xmi:id="_YXtNHY0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="sb_comercialplanning" xmi:id="_YXtNHo0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="sb_comercialplanning_dl" xmi:id="_YXtNH40aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="sb_contabil" xmi:id="_YXtNII0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="sb_contas_receber" xmi:id="_YXtNIY0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="sb_crm" xmi:id="_YXtNIo0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="sb_digital" xmi:id="_YXtNI40aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="sb_e2a" xmi:id="_YXtNJI0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="sb_educontinuada" xmi:id="_YXtNJY0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="sb_enrollmentplanning" xmi:id="_YXtNJo0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="sb_estruturar" xmi:id="_YXtNJ40aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="sb_evasao" xmi:id="_YXtNKI0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="sb_exercer" xmi:id="_YXtNKY0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="sb_faturamento" xmi:id="_YXtNKo0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="sb_financeiro" xmi:id="_YXtNK40aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="sb_financialplaning" xmi:id="_YXtNLI0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="sb_g2d" xmi:id="_YXtNLY0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="sb_gi" xmi:id="_YXtNLo0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="sb_graduar" xmi:id="_YXtNL40aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="sb_inspirali" xmi:id="_YXtNMI0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="sb_integracao" xmi:id="_YXtNMY0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="sb_integracao_escolas" xmi:id="_YXtNMo0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="sb_integrar" xmi:id="_YXtNM40aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="sb_inteligenciacompetitiva" xmi:id="_YXtNNI0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="sb_inteligenciamercado" xmi:id="_YXtNNY0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="sb_jira" xmi:id="_YXtNNo0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="sb_jornadaaluno" xmi:id="_YXtNN40aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="sb_jornadadocente" xmi:id="_YXtNOI0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="sb_jornadafinanceira" xmi:id="_YXtNOY0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="sb_jornadafinanceiraaluno_dl" xmi:id="_YXtNOo0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="sb_jornadaportais" xmi:id="_YXtNO40aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="sb_juridico" xmi:id="_YXtNPI0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="sb_medschool" xmi:id="_YXtNPY0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="sb_melhoriacontinua" xmi:id="_YXtNPo0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="sb_nova_pdd" xmi:id="_YXtNP40aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="sb_pagar" xmi:id="_YXtNQI0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="sb_pdd" xmi:id="_YXtNQY0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="sb_peopleanalytics" xmi:id="_YXtNQo0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="sb_permanecer" xmi:id="_YXtNQ40aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="sb_pesquisa" xmi:id="_YXtNRI0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="sb_pesquisaestrategia" xmi:id="_YXtNRY0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="sb_plan_canais_atend" xmi:id="_YXtNRo0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="sb_posgraduacao" xmi:id="_YXtNR40aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="sb_professor" xmi:id="_YXtNSI0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="sb_projetosespeciais" xmi:id="_YXtNSY0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="sb_regulatorio" xmi:id="_YXtNSo0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="sb_relatorio_siaf" xmi:id="_YXtNS40aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="sb_rematricula" xmi:id="_YXtNTI0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="sb_retencao" xmi:id="_YXtNTY0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="sb_rh" xmi:id="_YXtNTo0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="sb_ri" xmi:id="_YXtNT40aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="sb_scap0" xmi:id="_YXtNUI0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="sb_seguranca_informacao" xmi:id="_YXtNUY0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="sb_servico_academico" xmi:id="_YXtNUo0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="sb_sgd" xmi:id="_YXtNU40aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="sb_squad_pagar2" xmi:id="_YXtNVI0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="sb_squadanalisar" xmi:id="_YXtNVY0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="sb_tableau" xmi:id="_YXtNVo0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="sb_vivae" xmi:id="_YXtNV40aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="sb_vpa" xmi:id="_YXtNWI0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="sb_vpec" xmi:id="_YXtNWY0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="sb_vtex" xmi:id="_YXtNWo0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="stage" xmi:id="_YXtNW40aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+    <ownedElement name="work" xmi:id="_YXtNXI0aEe2XKaH4Yz1OIQ" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+  </orgomg.cwm.resource.relational:Catalog>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_66cfe71d-1e5a-4f66-bbd2-6c1e8a7e6f33"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>4QH71Rr1wpqjs9KiFby/fJuttaPzfueK04hl0cRaU5kFtg7fWYTApPx09AjlEpLX4aF1hT2DPS20&#13;
+8qPhY4Z9LQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_3c363302-f5cc-40ec-8be7-a154816e9f93"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>kB2gbKafhTdJTee6SKC0/RjFilvTHAhXdSRnTiAw0PtXs0J5P5j8Z3inWTRNjUDFCwA9AroOPq/N&#13;
+BrB8DBy1wA==</DigestValue></Reference></SignedInfo><SignatureValue>cuQiQ6mL51NriPuzeNunyk6kW/rEtu3qIqlzWOnifVgyA5sxGOX5IxhUTQ52Jb0GjC7PIhi+S1Yg&#13;
+K+97nZhKwRbSQgdODZWVjVQcjZLf/Hpa+lCIdSvBqYkk8DNsaum3UD0jxMHBKUxgGURZA9W/NOBr&#13;
+6NtdibmG8FgnlFIEWTA07Yb7oMuxFNdDIGhhsi0FSI/sefW0X98xk71pdA5/d8QOb61sfBndM+nQ&#13;
+1/gwrx0X4/3A0TvHuZNE2pjRI5VNYWATcFD4fNj8sbwlv6DjXOuNKFINY55op0No5b5R2BgfuPsR&#13;
+vH/9kDN6SX90dIHFYR71gtPlPBGctEz1rlK4mQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_3c363302-f5cc-40ec-8be7-a154816e9f93" Target="#_66cfe71d-1e5a-4f66-bbd2-6c1e8a7e6f33"><Timestamp>2023-01-05 16:59:56</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
