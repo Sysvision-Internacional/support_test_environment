@@ -5,6 +5,10 @@
     "type" : "job"
   },
   "relatedItems" : [ {
+    "id" : "_HWvVV40nEe2XKaH4Yz1OIQ",
+    "version" : "Latest",
+    "type" : "joblet"
+  }, {
     "id" : "_xlcfdI0ZEe2XKaH4Yz1OIQ",
     "version" : "Latest",
     "type" : "property"
