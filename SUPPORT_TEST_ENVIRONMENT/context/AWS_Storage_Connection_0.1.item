@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ContextType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:xmi="http://www.omg.org/XMI" confirmationNeeded="false" name="Default" xmi:id="_oITksPLhEeyuf6S5s2lKMA" xmi:version="2.0">
+  <contextParameter comment="Access Key ID that uniquely identifies an AWS Account" name="s3_access_key" prompt="s3_access_key?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_XY5LoPLiEeyuf6S5s2lKMA"/>
+  <contextParameter comment="Secret Access Key, constituting the security credentials in combination with the access Key" name="s3_secret_key" prompt="s3_secret_key?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="" xmi:id="_XY5LofLiEeyuf6S5s2lKMA"/>
+  <contextParameter comment="Specify the name of the source bucket that contains the object to be copied" name="s3_bucket_name" prompt="s3_bucket_name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_XY5LovLiEeyuf6S5s2lKMA"/>
+  <contextParameter comment="Provide the temporary folder path" name="s3_temp_folder" prompt="s3_temp_folder?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_XY5Lo_LiEeyuf6S5s2lKMA"/>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_6a9039fb-9f41-4030-9e9d-b6aa127e2587"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>wggtxV0xcjiDOGqsoCLu9BZI9ijS6iS9gcUAGRYibDA8iWmintORh94mlnYpefjyM4Ck91N0us38&#13;
+zweFMf5xiQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_e0e2560e-2088-4780-9c6d-fd03b39af2c3"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>WZATm2ofjOjNB8UWINrXEog3t70fnU5x/XpKR4FuBs27pWGOfSIdIsCZS3Mk+fRlJmLESuZ/jt5P&#13;
+7s06EMIVXw==</DigestValue></Reference></SignedInfo><SignatureValue>ZxPMNW+22vMarLYrqCuib5V+2stdpKtRzoNmyxqaghbIapM0tCfs2NE5GpXl10zPMTDt38hcsKkb&#13;
+cKwzLrZlg4orEA+vCQywFUPWTytz8QDP4Rq16hrVsUvn/CdZZ9ba/h5ag9XO5lbznSofGcK2lQw8&#13;
+ObzyYgEbcdXWW84yHNGD8SHuY8VuICC/iM0kOh0wXPA3CH7wLAfea7g2y1V7w/shO3gUX+XF7b84&#13;
+ZHzLUj8KwX2nE9/u/Q+1Xt69BRAD7xo0BU4tXlsCCo5l+e64IrAz1nIR5GRJgECl1IbsmwOkltzr&#13;
+TssTp65I7zhFeVJ+FBWS4pvf+SHToCQhdLOPsw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_e0e2560e-2088-4780-9c6d-fd03b39af2c3" Target="#_6a9039fb-9f41-4030-9e9d-b6aa127e2587"><Timestamp>2023-01-05 16:52:09</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ContextType>
